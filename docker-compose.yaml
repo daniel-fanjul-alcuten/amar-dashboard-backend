@@ -1,0 +1,12 @@
+version: '2'
+services:
+  mysql:
+    image: mysql
+    hostname: mysql
+    ports:
+      - 127.0.0.1:3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: hKGeVIHWg2GwdQV9u7Kkxsf6jXJIjgdL
+      MYSQL_DATABASE: amar
+      MYSQL_USER: garak
+      MYSQL_PASSWORD: grapes
